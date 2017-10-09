@@ -1,11 +1,23 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 body{
-    font-family: sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #ceb9a9;
 }
 
 #wrapper{
     width: 60vw;
     display: block;
     margin: 0 auto;
+    padding: 0 30px 0 30px;
+    background-color: white;
 }
 
 h1{
@@ -18,7 +30,7 @@ h1{
 li{
     list-style: none;
     float: left;
-    padding: 1em 5em 1em 3em;
+    padding: 1em 5em 1em 5em;
 }
 
 section{
